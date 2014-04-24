@@ -1,4 +1,4 @@
-## prepares a matrix for inverse caching
+## Prepares a matrix for inverse caching
 ## usage:
 ## a <- makeCacheMatrix(matrix(1:4,2))
 ## a$get() displays current values for a
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
              getInv = getInv)
 }
 
-## Return a matrix that is the inverse of 'x'
+## Returns a matrix that is the inverse of 'x'
 ## after it was previously "prepared" with makeCacheMatrix above
 ## usage:
 ## x <- makeCacheMatrix(matrix(1:4,2))
