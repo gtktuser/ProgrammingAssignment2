@@ -42,7 +42,9 @@ From the original set of 561 variables I kept only the ones that are mean and st
 *timeBodyAccelerationStandardDeviationY
 
 *timeBodyAccelerationStandardDeviationZ
+
 *timeGravityAccelerationMeanX
+
 *timeGravityAccelerationMeanY
 *timeGravityAccelerationMeanZ
 *timeGravityAccelerationStandardDeviationX
